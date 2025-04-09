@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>จุดหมาย | Travel with Tong</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    .topbar {
+      background-color: #000;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .topbar .left, .topbar .right {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .topbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .logo {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      letter-spacing: 3px;
+      color: white;
+    }
+
+    nav {
+      background-color: #111;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      font-weight: 600;
+      border-top: 1px solid #333;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bfff;
+    }
+
+    .main-content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 3rem 2rem;
+    }
+
+    .destination {
+      margin-bottom: 4rem;
+    }
+
+    .destination h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .destination iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .destination a {
+      color: #00b894;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .destination a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer a:hover {
+      color: #00bfff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="left">
+      <a href="#">ค้นหา</a>
+      <a href="#">TH</a>
+    </div>
+    <div class="logo">Travel with Tong</div>
+    <div class="right">
+      <a href="#">ร้านค้า</a>
+      <a href="#">ตั๋ว</a>
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <nav>
+    <a href="map.html">จุดหมาย</a>
+    <a href="#">กิจกรรม</a>
+    <a href="#">สำรวจ</a>
+    <a href="#">เพิ่มเติม</a>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>จุดหมายยอดนิยม</h1>
+
+    <!-- วัดพระแก้ว -->
+    <div class="destination">
+      <h2>วัดพระแก้ว</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.7951874111266!2d100.49145337507473!3d13.751595186655873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2992d04e8657b%3A0x52ba2b2fc871a1fb!2z4Lit4Liy4Lij4LiZ4LmB4Lir4LiH4LmI4LmA4LiZIOC4q-C4o-C4suC4geC4uOC4muC4meC4q-C4seC4uQ" allowfullscreen="" loading="lazy"></iframe>
+      <a href="watpakaew.html">ดูรายละเอียด</a>
+    </div>
+
+    <!-- เกาะหลีเป๊ะ -->
+    <div class="destination">
+      <h2>เกาะหลีเป๊ะ</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7961.64499930863!2d99.29988247157036!3d6.491308365644716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b0d0a9fef6dc7%3A0xe907b3bc2f3ffb44!2z4Liq4Lin4LiZ4Lix4LiU4Li14LmI4LiZ4Liq!5e0!3m2!1sth!2sth!4v1712648300000" allowfullscreen="" loading="lazy"></iframe>
+      <a href="kohlipe.html">ดูรายละเอียด</a>
+    </div>
+
+    <!-- หาดทรายขาว เกาะช้าง -->
+    <div class="destination">
+      <h2>หาดทรายขาว เกาะช้าง</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.1580551083853!2d102.28567837504155!3d12.07090652993959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3106f93d2a49308f%3A0xe4f92e37a37776ce!2z4Liq4Li04Lip4LiI4Lix4LiZ4Li04LiZ4LiVIOC4l-C4quC4reC4peC4muC5gOC4o-C5jA!5e0!3m2!1sth!2sth!4v1712648400000" allowfullscreen="" loading="lazy"></iframe>
+      <a href="whitebeach.html">ดูรายละเอียด</a>
+    </div>
+
+    <!-- หาดเฉวง เกาะสมุย -->
+    <div class="destination">
+      <h2>หาดเฉวง เกาะสมุย</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.5671423535733!2d100.06125727505062!3d9.529391990499038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3054fe313bafc44d%3A0x41d7d028f40a9f60!2z4Liq4Lix4LiB4Liy4LiK4LiX4Lii4Liy4LiV4LiV4Liq4Liy4LiH4Lia4Lil4Liq4LiH4LmB4LiU4Liq" allowfullscreen="" loading="lazy"></iframe>
+      <a href="chaweng.html">ดูรายละเอียด</a>
+    </div>
+
+    <!-- หาดป่าตอง ภูเก็ต -->
+    <div class="destination">
+      <h2>หาดป่าตอง ภูเก็ต</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.073281968238!2d98.29226817504889!3d7.900917707141817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30503b31f697bbcb%3A0x81285c8a4f6be90!2z4Liq4Li04Lip4LiI4Lix4LiZ4Li04LiZ4LiVIOC4k-C4tOC4o-C4geC4oeC4o-C4sOC5gOC4iOC5hOC4pQ" allowfullscreen="" loading="lazy"></iframe>
+      <a href="patong.html">ดูรายละเอียด</a>
+    </div>
+
+    <!-- หาดไร่เลย์ กระบี่ -->
+    <div class="destination">
+      <h2>หาดไร่เลย์ กระบี่</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.9545861582774!2d98.83512417504824!3d8.008408205249297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3051d4d8aef97f75%3A0xeaf321e5bdf96d4b!2z4Liq4Li04Lip4LiI4Lix4LiZ4Li04LiZ4LiVIOC4k-C4tOC4o-C4geC4oeC4oQ" allowfullscreen="" loading="lazy"></iframe>
+      <a href="railay.html">ดูรายละเอียด</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travel with Tong. สงวนลิขสิทธิ์</p>
+    <p>
+      ติดต่อ: <a href="mailto:travelwithtong@example.com">travelwithtong@example.com</a>
+    </p>
+    <p>
+      <a href="index.html">หน้าหลัก</a> |
+      <a href="#">เกี่ยวกับ</a> |
+      <a href="#">นโยบายความเป็นส่วนตัว</a>
+    </p>
+  </footer>
+
+</body>
+</html>
