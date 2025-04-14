@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Travel with Tong</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* ... คัดลอก style เดิมมาทั้งหมด เพื่อความกลมกลืน ... */
+    /* (ย่อไว้ตรงนี้ แต่คุณสามารถ copy style จากหน้าเดิมทั้งหมดมาแปะได้เลย) */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #222;
+    }
+
+    .topbar {
+      background-color: #000;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .topbar .left, .topbar .right {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .topbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .logo {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      letter-spacing: 3px;
+      color: white;
+    }
+
+    nav {
+      background-color: #111;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      font-weight: 600;
+      border-top: 1px solid #333;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bfff;
+    }
+
+    .about-section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .about-section h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+
+    .about-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 2rem;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      margin-bottom: 1.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .about-section h1 {
+        font-size: 2.2rem;
+      }
+
+      .about-section p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="left">
+      <a href="#">ค้นหา</a>
+      <a href="#">TH</a>
+    </div>
+    <div class="logo">Travel with Tong</div>
+    <div class="right">
+      <a href="#"></a>
+      <a href="#">by toilet</a>
+    </div>
+  </div>
+
+  <nav>
+    <a href="index.html">หน้าหลัก</a>
+    <a href="map.html">Map</a>
+    <a href="about.html">About</a>
+    <a href="#" onclick="alert('หากต้องการความช่วยเหลือ โปรดติดต่อทีมงานของเรา')">Help</a>
+  </nav>
+
+  <section class="about-section">
+    <img src="your-photo.jpg" alt="รูปเจ้าของเว็บ" class="profile-img">
+    <h1>เกี่ยวกับฉัน</h1>
+    <p>
+      สวัสดีครับ! ผมชื่อ "Tong" เป็นคนที่รักในการเดินทางและอยากแบ่งปันประสบการณ์ท่องเที่ยวทั่วประเทศไทยให้กับทุกคนผ่านเว็บไซต์นี้<br><br>
+      เว็บไซต์ Travel with Tong ถูกสร้างขึ้นมาเพื่อเป็นแหล่งข้อมูลสำหรับผู้ที่กำลังวางแผนเดินทาง ไม่ว่าจะเป็นวัดที่สวยงาม ชายหาดที่เงียบสงบ หรือภูเขาที่งดงาม<br><br>
+      หวังว่าทุกท่านจะได้รับแรงบันดาลใจและประสบการณ์ดีๆ จากการเยี่ยมชมเว็บไซต์ของผมนะครับ 🙂
+    </p>
+  </section>
+
+</body>
+<footer style="background-color:#111; color:white; padding:2rem 1rem; text-align:center; margin-top:3rem; font-size:0.9rem;">
+    <div style="max-width:900px; margin:auto;">
+      <p>&copy; 2025 Travel with Tong. สงวนลิขสิทธิ์</p>
+      <p>
+        ติดต่อเรา: <a href="mailto:toiletitsu@gmail.com" style="color:#00bfff; text-decoration:none;">toiletitsu@gmail.com</a>
+      </p>
+      <p>
+        <a href="index.html" style="color:#ccc; margin: 0 10px;">หน้าหลัก</a> |
+        <a href="aboutme.html" style="color:#ccc; margin: 0 10px;">เกี่ยวกับ</a> |
+      </p>
+    </div>
+  </footer>
+</html>
